@@ -17,7 +17,7 @@
 	// Sample data $latlong = -6.4680506382369725,106.88995359371344
     function reverseGeocode($latlong) {
         // Maps Reverse Geocoding API URL
-        $apiKey = "AIzaSyBalotmMPSRkl2m6_ZvYpZVJNz8uRg40jk";
+        $apiKey = "YOUR-GOOGLE-API";
         
         // Buat URL untuk melakukan reverse geocoding
         $geocodeUrl = "https://maps.googleapis.com/maps/api/geocode/json?latlng=$latlong&key=$apiKey";
